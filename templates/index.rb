@@ -1,24 +1,11 @@
 
 
-title "Hello WOrld"
+title "Ghetto.lua"
 
 main {
 
-  h1 'Sinatra.lua'
-  h2 'Sinatra takes a little break from the Ruby stage to sing a diddy under the Brazilian moon.'
-
-  p {
-    span.note "Note:"
-    span "
-      This site is unofficial and has no association
-      with
-    "
-    a("Sinatra.rb", :href=>"http://www.sinatrarb.com")
-    span ", "
-    a("Sinatra-Openresty", :href=>"https://github.com/jtarchie/sinatra-openresty")
-    span " or "
-    a("Lapis", :href=>"http://leafo.net/lapis/")
-  }
+  h1 'Ghetto.lua'
+  h2 'Your guess is as good as mine as to what this site is about.'
 
   div.install {
     h3 "Install Lua:"
@@ -31,18 +18,6 @@ main {
       a("http://openresty.org/#Installation", :href=>"http://openresty.org/#Installation")
     }
 
-   h3 "Install ..."
-   p {
-     span "I was going to say, "
-     a("Sinatra-Openresty", :href=>"https://github.com/jtarchie/sinatra-openresty")
-     span ".
-     However, it's currently a side-project and the owner does not want too much
-     attention for now. Therefore, apologies to Mr. JT Archie.
-     Until I find some other project to write about and play with, try using "
-     a("Lapis", :href=>"http://leafo.net/lapis/")
-     span ": another easy-to-use framework on OpenResty."
-   }
-
   }
 
 
@@ -50,6 +25,9 @@ main {
    p {
      span "That's all for now. "
      span "Send complaints, suggestions, and hate mail to: "
-     a("sin-moon", :href=>"https://github.com/sin-moon/sin-moon.github.io/issues")
+     a("Ghetto.lua", :href=>"https://github.com/ghetto-lua/ghetto-lua.github.io/issues")
    }
 }
+
+
+

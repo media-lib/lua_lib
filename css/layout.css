@@ -2,6 +2,7 @@
 
 div.highlight {
   background: #FAFAFA;
+  background: #fff;
   border: 1px dashed #ccc;
   padding: 5px;
   margin: 0;
@@ -20,7 +21,7 @@ span.note {
 
 body {
   padding: 10px 10px 90px 170px;
-  background: #fff url('/img/legend.gif') no-repeat -45px -55px;
+  background: #FBFBFB url('/img/ghetto.png') no-repeat -140px 0;
 }
 
 h1 {
@@ -33,3 +34,4 @@ h2 {
   font-style: italic;
   font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Ubuntu sans-serif;
 }
+

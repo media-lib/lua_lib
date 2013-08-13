@@ -7,6 +7,15 @@ main {
   h1 'Ghetto.lua'
   h2 'Your guess is as good as mine as to what this site is about.'
 
+  div.learn {
+
+    h3 "Intro to OpenResty:"
+    p {
+      span "The best intro to OpenResty I could find: "
+      a("Scripting Nginx w/Lua", :href=>"http://www.londonlua.org/scripting_nginx_with_lua/slides.html")
+    }
+  }
+
   div.install {
     h3 "Install Lua:"
     p "On Ubuntu:"

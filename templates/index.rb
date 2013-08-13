@@ -14,8 +14,10 @@ main {
       with
     "
     a("Sinatra.rb", :href=>"http://www.sinatrarb.com")
-    span " or "
+    span ", "
     a("Sinatra-Openresty", :href=>"https://github.com/jtarchie/sinatra-openresty")
+    span " or "
+    a("Lapis", :href=>"http://leafo.net/lapis/")
   }
 
   div.install {
@@ -62,7 +64,7 @@ eos
    h3 "Alternatives:"
    p {
      a("Lapis", :href=>"http://leafo.net/lapis/")
-     span ": Another easy to use framework on OpenResty."
+     span ": Another easy-to-use framework on OpenResty."
    }
 
    h3 "More to come:"

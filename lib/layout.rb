@@ -13,7 +13,12 @@ module Dot_Why
     end
 
     def stylesheet name
-      link(:rel=>'stylesheet', :type=>'text/css', :href=>"/css/#{name}.css?#{STAMP}", :media=>'screen')
+      filename = if name[/\:/]
+                   name
+                 else
+                   "/css/#{name}.css?#{STAMP}"
+                 end
+      link(:rel=>'stylesheet', :type=>'text/css', :href=>filename, :media=>'screen')
     end
 
     def content
@@ -24,6 +29,7 @@ module Dot_Why
           meta(:"http-equiv"=>"Content-Type",  :content=>"text/html charet=UTF-8" )
           meta(:"http-equiv"=>"Cache-Control", :content=>"no-cache, max-age=0, must-revalidate, no-store, max-stale=0, post-check=0, pre-check=0" )
           link(:rel=>'shortcut icon', :href=>'/favicon.ico')
+          stylesheet 'http://fonts.googleapis.com/css?family=Marcellus+SC'
           stylesheet 'vanilla'
           stylesheet 'highlight'
           stylesheet 'layout'

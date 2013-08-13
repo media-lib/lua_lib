@@ -25,13 +25,12 @@ body {
 }
 
 h1 {
-  font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Ubuntu sans-serif;
+  font-family: 'Marcellus SC', 'Lucida Grande', 'Lucida Sans', Ubuntu, Tahoma, serif;
   font-size: 3em;
 }
 
 h2 {
   font-weight: normal;
-  font-style: italic;
-  font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, Ubuntu sans-serif;
+  font-family: 'Marcellus SC', 'Lucida Grande', 'Lucida Sans', Ubuntu, Tahoma, serif;
 }
 

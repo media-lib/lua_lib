@@ -16,7 +16,8 @@ pre {
 /* The Main Stuff */
 
 body {
-  padding: 10px 10px 10px 100px;
+  padding: 10px 10px 10px 170px;
+  background: #fff url('/img/legend.gif') no-repeat -45px -55px;
 }
 
 h1 {

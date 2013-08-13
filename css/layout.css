@@ -12,6 +12,9 @@ pre {
  margin: 0;
 }
 
+span.note {
+  font-weight: bold;
+}
 
 /* The Main Stuff */
 

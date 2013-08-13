@@ -20,13 +20,23 @@ main {
 
   }
 
-
    h3 "More to come:"
    p {
      span "That's all for now. "
      span "Send complaints, suggestions, and hate mail to: "
      a("Ghetto.lua", :href=>"https://github.com/ghetto-lua/ghetto-lua.github.io/issues")
    }
+
+
+   h3 "What I'm up to:"
+   p "I'm trying to find a well-maintained lib that does this: "
+   highlight "lua", <<-eos
+require 'sinatra_lua'
+
+get('/hi', function ()
+  return "Hello World!"
+end)
+   eos
 }
 
 

@@ -1,7 +1,7 @@
 require 'sinatra'
 
-use Rack::Static, :urls => ["/css"], :root => "public"
+use Rack::Static, :urls => ["/css"], :root => "./"
 
 get '/' do
-  File.read("public/index.html")
+  File.read("index.html")
 end

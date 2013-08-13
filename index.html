@@ -5,9 +5,9 @@
     <meta content="text/html charet=UTF-8" http-equiv="Content-Type" />
     <meta content="no-cache, max-age=0, must-revalidate, no-store, max-stale=0, post-check=0, pre-check=0" http-equiv="Cache-Control" />
     <link href="/favicon.ico" rel="shortcut icon" />
-    <link href="/css/vanilla.css?1376363858" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/css/highlight.css?1376363858" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/css/layout.css?1376363858" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/vanilla.css?1376366857" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/highlight.css?1376366857" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/layout.css?1376366857" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>Sinatra.lua</h1>
@@ -23,6 +23,8 @@
 </pre></div>
       <h3>Install OpenResty:</h3>
       <p><span>Go to: </span><a href="http://openresty.org/#Installation">http://openresty.org/#Installation</a></p>
+      <h3>Install sinatra-openresty:</h3>
+      <p><span>Your guess is as good as mine. </span><span>(</span><span class="note">Seriously: </span><span>I&#39;ll post more about this later.)</span></p>
     </div>
     <h3>Hello, crooner.</h3>
     <div class="highlight"><pre><span class="kd">local</span> <span class="n">sinatra</span> <span class="o">=</span> <span class="nb">require</span><span class="p">(</span><span class="s1">&#39;</span><span class="s">sinatra&#39;</span><span class="p">);</span>
@@ -37,10 +39,15 @@
   <span class="k">return</span> <span class="s2">&quot;</span><span class="s">Hello, &quot;</span> <span class="o">..</span> <span class="n">params</span><span class="p">.</span><span class="n">name</span><span class="p">;</span>
 <span class="k">end</span><span class="p">)</span>
 
-<span class="n">app</span><span class="p">:</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;</span><span class="s">/age/:age&quot;</span><span class="p">,</span> <span class="k">function</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
-  <span class="k">return</span> <span class="s2">&quot;</span><span class="s">You are &quot;</span> <span class="o">..</span> <span class="nb">tostring</span><span class="p">(</span><span class="n">age</span><span class="p">)</span> <span class="o">..</span> <span class="s2">&quot;</span><span class="s"> years old.&quot;</span>
+<span class="n">app</span><span class="p">:</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;</span><span class="s">/drinks/:num&quot;</span><span class="p">,</span> <span class="k">function</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+  <span class="k">return</span> <span class="s2">&quot;</span><span class="s">I ordered &quot;</span> <span class="o">..</span> <span class="nb">tostring</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="o">..</span> <span class="s2">&quot;</span><span class="s"> Mint Juleps.&quot;</span>
 <span class="k">end</span><span class="p">)</span>
 
 <span class="n">app</span><span class="p">:</span><span class="n">run</span><span class="p">()</span>
-</pre></div></body>
+</pre></div>
+    <h3>Alternatives:</h3>
+    <p><a href="http://leafo.net/lapis/">Lapis</a><span>: Another easy to use framework on OpenResty.</span></p>
+    <h3>More to come:</h3>
+    <p><span>That&#39;s all for now. </span><span>Send complaints, suggestions, and hate mail to: </span><a href="https://github.com/sin-moon/sin-moon.github.io/issues">sin-moon</a></p>
+  </body>
 </html>

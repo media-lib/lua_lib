@@ -31,9 +31,16 @@ main {
    h3 "What I'm up to:"
    p "I'm trying to find a well-maintained lib that does this: "
    highlight "lua", <<-eos
-require 'sinatra_lua'
+require 'rack.lua'
 
-get('/hi', function ()
+USE(function (req, resp)
+  if req.header["INVALID-HeAder"] then
+    resp.status  = 406
+    return "Header not allowed: INVALID-HeAder"
+  end
+end)
+
+GET('/hello/sammy', function ()
   return "Hello World!"
 end)
    eos

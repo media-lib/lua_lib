@@ -31,41 +31,20 @@ main {
       a("http://openresty.org/#Installation", :href=>"http://openresty.org/#Installation")
     }
 
-    h3 "Install sinatra-openresty:"
-    p {
-      span "Your guess is as good as mine. "
-      span "("
-      span.note "Seriously: "
-      span "I'll post more about this later.)"
-    }
+   h3 "Install ..."
+   p {
+     span "I was going to say, "
+     a("Sinatra-Openresty", :href=>"https://github.com/jtarchie/sinatra-openresty")
+     span ".
+     However, it's currently a side-project and the owner does not want too much
+     attention for now. Therefore, apologies to Mr. JT Archie.
+     Until I find some other project to write about and play with, try using "
+     a("Lapis", :href=>"http://leafo.net/lapis/")
+     span ": another easy-to-use framework on OpenResty."
+   }
+
   }
 
-  h3 "Hello, crooner."
-  highlight('lua',  <<-eos
-local sinatra = require('sinatra');
-
-local app = sinatra.app:new()
-
-app:get("/", function()
-  return "Hello, World"
-end)
-
-app:get("/:name", function()
-  return "Hello, " .. params.name;
-end)
-
-app:get("/drinks/:num", function(num)
-  return "I ordered " .. tostring(num) .. " Mint Juleps."
-end)
-
-app:run()
-eos
-)
-   h3 "Alternatives:"
-   p {
-     a("Lapis", :href=>"http://leafo.net/lapis/")
-     span ": Another easy-to-use framework on OpenResty."
-   }
 
    h3 "More to come:"
    p {

@@ -45,8 +45,8 @@ main {
     h3 "Learning Lua is easy at first. Then it gets harder."
     p {
       span %^
-        The book, Programming in Lua 2nd Edition (for 5.2), is already partially outdated.
-        It used a pre-release version.
+        The book, Programming in Lua 3rd Edition (for 5.2), is already partially outdated.
+        It used a pre-release Lua 5.2 version.
       ^
       a("Here is an example.", :href=>"http://stackoverflow.com/a/11280629/841803")
       span %^
@@ -89,6 +89,24 @@ main {
         stick with LuaJIT, use it as 5.1, and use openresty. If you want to learn more
         about it: use google.
       ^
+    }
+  }
+
+  div.learn {
+    h3 "Learning Lua"
+    ul {
+      li { span "Programming in Lua, 5.2 (not online for free yet)" }
+      li { a("Lua 5.1 Manual", :href=>"http://www.lua.org/manual/5.1/") }
+      li {
+        a("Lapis", :href=>"http://leafo.net/lapis/")
+        span %^.^
+        br
+        span %^
+          Be sure to click on the Lua version of the code.
+          Scroll down a little and a header appears with MoonScript/Lua options.
+        ^
+      }
+      li { span "I'm avoiding MoonScript for now. I'm having enough trouble Lua and limited time." }
     }
   }
 

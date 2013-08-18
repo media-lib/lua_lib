@@ -70,7 +70,7 @@ main {
       ^
       a("simple shell script", :href=>"https://github.com/da99/boot_ups/blob/master/bin/install/luajit")
       span %^
-        to compile/install 
+        to compile/install
       ^
       a('LuaJIT 2.0', :href=>"http://luajit.org/install.html")
       span %^,
@@ -98,20 +98,9 @@ main {
     p {
       span "The best intro to OpenResty I could find: "
       a("Scripting Nginx w/Lua", :href=>"http://www.londonlua.org/scripting_nginx_with_lua/slides.html")
-    }
-  }
-
-  div.install {
-    h3 "Install Lua:"
-    p "On Ubuntu:"
-    highlight "sh", "sudo apt-get install lua5.1"
-
-    h3 "Install OpenResty:"
-    p {
-      span "Go to: "
+      span "To install it: "
       a("http://openresty.org/#Installation", :href=>"http://openresty.org/#Installation")
     }
-
   }
 
    h3 "More to come:"

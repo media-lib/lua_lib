@@ -40,7 +40,11 @@ main {
       span %^
         I will not answer this. If you want to use some other language, fine. Go use it.
         There is no compelling reason to use it if you are already happy with your current language(s).
-        I use it because: easy to compile/install, runs fast enough for me, barely uses any memory.
+      ^
+    }
+    p {
+      span %^
+        I use it because: it's easy to compile/install, runs fast enough for me, and barely uses any memory.
       ^
     }
   }

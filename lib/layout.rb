@@ -37,7 +37,9 @@ module Dot_Why
           styles
         end
         body do
-          main
+          div.Sub_Body! {
+            main
+          }
         end
       end
     end

@@ -1,5 +1,10 @@
 /* highlight code touchups */
 
+#Sub_Body {
+  max-width: 550px;
+  font-size: 120%;
+}
+
 div.highlight {
   background: #FAFAFA;
   background: #fff;

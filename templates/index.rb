@@ -83,7 +83,7 @@ main {
         Things are still being debated about Lua 5.2 and the future. Just look at this page:
       ^
       a("Sand Boxes", :href=>"http://lua-users.org/wiki/SandBoxes")
-      span %^
+      span %^.
         It's full of warnings, complaints, and debates. My needs are simple (but with limited RAM/CPU).
         Therefore, I will:
         stick with LuaJIT, use it as 5.1, and use openresty. If you want to learn more
@@ -98,7 +98,7 @@ main {
     p {
       span "The best intro to OpenResty I could find: "
       a("Scripting Nginx w/Lua", :href=>"http://www.londonlua.org/scripting_nginx_with_lua/slides.html")
-      span "
+      span ".
         To install OpenResty:
       "
       a("http://openresty.org/#Installation", :href=>"http://openresty.org/#Installation")

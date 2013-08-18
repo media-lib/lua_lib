@@ -5,6 +5,14 @@
   font-size: 120%;
 }
 
+p, code, pre, kbd {
+  margin: 0;
+}
+
+p {
+  margin: 1em 0
+}
+
 div.highlight {
   background: #FAFAFA;
   background: #fff;

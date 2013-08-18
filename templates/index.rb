@@ -9,6 +9,7 @@ main {
 
   div.learn {
     h3 "Lua is not meant for me."
+
     p {
       span %^
         Most of the people using Lua are C programmers who come from a different
@@ -17,8 +18,11 @@ main {
         who are reading this site.
         Nevertheless, Lua is a wonderful language.^
 
-      highlight "sh", '("Wonderful" == "not as bad as other languages")'
+    }
 
+    highlight "sh", '("Wonderful" == "not as bad as other languages")'
+
+    p {
       span %^
         In other words: Lua is no better, no worse than Ruby, Python, and all the
         others that are worse than

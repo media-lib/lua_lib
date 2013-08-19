@@ -119,6 +119,17 @@ main {
   }
 
   div.learn {
+    ul {
+      li {
+       a("OOP-ish Lua", :href=>"http://phrogz.net/Lua/")
+      }
+      li {
+        a("PostgresSQL Basics by Example", :href=>"http://darthdeus.github.io/blog/2013/08/19/postgresql-basics-by-example/")
+      }
+    }
+  }
+
+  div.learn {
 
    h3 "More to come:"
    p {

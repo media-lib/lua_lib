@@ -127,7 +127,10 @@ main {
         a("PostgresSQL Basics by Example", :href=>"http://darthdeus.github.io/blog/2013/08/19/postgresql-basics-by-example/")
       }
       li {
-        a("LuaL Good, bad, and ugly parts", :href=>"http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts")
+        a("Lua: Good, bad, and ugly parts", :href=>"http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts")
+      }
+      li {
+        a("Zerobrane Studio: IDE w/live coding", :href=>"http://studio.zerobrane.com/")
       }
     }
   }

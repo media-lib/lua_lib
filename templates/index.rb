@@ -132,6 +132,9 @@ main {
       li {
         a("Zerobrane Studio: IDE w/live coding", :href=>"http://studio.zerobrane.com/")
       }
+      li {
+        a("NGINX Tutorials by Openresty co-creator", :href=>"http://openresty.org/download/agentzh-nginx-tutorials-en.html")
+      }
     }
   }
 

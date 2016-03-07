@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# -*- bash -*-
+#
+#
+set -u -e -o pipefail
+
+# bundle exec ruby dev_server/sin.rb
+
+CMD="nginx/sbin/nginx -c $PWD/nginx.conf -p $PWD  "
+if [[ "$@" == "start" ]]; then
+  $CMD -t
+  if [[ -s tmp/nginx.pid ]]; then
+    $CMD -s reload
+  else
+    $CMD
+  fi
+  exit 0
+fi
+
+$CMD $@
+
+

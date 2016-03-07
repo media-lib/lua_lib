@@ -1,15 +1,11 @@
 #!/usr/bin/env bash
 # -*- bash -*-
 #
-#!/usr/bin/env node
-# -*- js   -*-
-#
-#!/usr/bin/env lua
-#
 #
 set -u -e -o pipefail
 
-bundle install
+mkdir -p tmp
+nginx_setup install " --error-log-path=$PWD/tmp/nginx.startup.log "
 
 
 

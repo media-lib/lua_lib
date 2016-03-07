@@ -14,57 +14,32 @@ The best intro to OpenResty I could find:
     [Scripting Nginx w/Lua"](http://www.londonlua.org/scripting_nginx_with_lua/slides.html).
 
 To install OpenResty:
-    [http://openresty.org/#Installation](http://openresty.org/#Installation)
+[http://openresty.org/#Installation](http://openresty.org/#Installation)
 
-Lua
+Lua is not meant for me.
 ==============
 
+Most of the people using Lua are C programmers who come from a different
+world than regular humans.
+Their idea of simplicity is far different than the retarded web monkeys
+who are reading this site.
+Nevertheless, Lua is a wonderful language.
 
+```sh
+"Wonderful" == "not as bad as other languages"
+```
+In other words: Lua is no better, no worse than Ruby, Python, and all the
+others that are worse than
+
+[Factor](http://factorcode.org) and [Smalltalk](http://www.pharo-project.org/)
+
+Why Lua for the web?
+=====================
+I will not answer this. If you want to use some other language, fine. Go use it.
+There is no compelling reason to use it if you are already happy with your current language(s).
+
+I use it because: it's easy to compile/install, runs fast enough for me, and barely uses any memory.
 ```ruby
-  h1 'Ghetto.lua'
-  h2 'My way of running a simple Lua-backed website for fun.'
-
-  div.learn {
-    h3 "Lua is not meant for me."
-
-    p {
-      span %^
-        Most of the people using Lua are C programmers who come from a different
-        world than regular humans.
-        Their idea of simplicity is far different than the retarded web monkeys
-        who are reading this site.
-        Nevertheless, Lua is a wonderful language.^
-
-    }
-
-    highlight "sh", '("Wonderful" == "not as bad as other languages")'
-
-    p {
-      span %^
-        In other words: Lua is no better, no worse than Ruby, Python, and all the
-        others that are worse than
-      ^
-
-      a("Factor", :href=>'http://factorcode.org')
-      span ' and '
-      a("Smalltalk", :href=>"http://www.pharo-project.org/")
-    }
-  }
-
-  div.learn {
-    h3 "Why Lua for the web?"
-    p {
-      span %^
-        I will not answer this. If you want to use some other language, fine. Go use it.
-        There is no compelling reason to use it if you are already happy with your current language(s).
-      ^
-    }
-    p {
-      span %^
-        I use it because: it's easy to compile/install, runs fast enough for me, and barely uses any memory.
-      ^
-    }
-  }
 
   div.learn {
     h3 "Learning Lua is easy at first. Then it gets harder."

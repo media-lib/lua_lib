@@ -39,98 +39,53 @@ I will not answer this. If you want to use some other language, fine. Go use it.
 There is no compelling reason to use it if you are already happy with your current language(s).
 
 I use it because: it's easy to compile/install, runs fast enough for me, and barely uses any memory.
-```ruby
 
-  div.learn {
-    h3 "Learning Lua is easy at first. Then it gets harder."
-    p {
-      span %^
-        The book, Programming in Lua 3rd Edition (for 5.2), is already partially outdated.
-        It used a pre-release Lua 5.2 version.
-      ^
-      a("Here is an example.", :href=>"http://stackoverflow.com/a/11280629/841803")
-      span %^
-        You will have to rely on blogs, Google, and ^
-      a('stackoverflow', :href=>"http://stackoverflow.com/questions/tagged/lua")
-      span '.'
-      span %^
-        I won't blame you if you run screaming back to easy-to-use Rack and Sinatra.
-      ^
-    }
-  }
 
-  div.learn {
-    h3 "Lua the easy way."
-    p {
-      span %^
-        I'm sticking with the LuaJIT 2.0 for now.
-        It is compatible with 5.1 and just as easy to install.
-        It is easy to compile. I uninstalled the Lua5.1 Ubuntu package,
-        wrote a
-      ^
-      a("simple shell script", :href=>"https://github.com/da99/boot_ups/blob/master/bin/install/luajit")
-      span %^
-        to compile/install
-      ^
-      a('LuaJIT 2.0', :href=>"http://luajit.org/install.html")
-      span %^,
-        and put the LuaJIT bin dir in my $PATH.
-      ^
-    }
+Learning Lua is easy at first. Then it gets harder.
+====
 
-    p {
-      span %^
-        Things are still being debated about Lua 5.2 and the future. Just look at this page:
-      ^
-      a("Sand Boxes", :href=>"http://lua-users.org/wiki/SandBoxes")
-      span %^.
-        It's full of warnings, complaints, and debates. My needs are simple (but with limited RAM/CPU).
-        Therefore, I will:
-        stick with LuaJIT, use it as 5.1, and use openresty. If you want to learn more
-        about it: use google.
-      ^
-    }
-  }
+The book, Programming in Lua 3rd Edition (for 5.2), is already partially outdated.
+It used a pre-release Lua 5.2 version.
 
-  div.learn {
-    h3 "Learning Lua"
-    ul {
-      li { span "Programming in Lua, 5.2 (not online for free yet)" }
-      li { a("Lua 5.1 Manual", :href=>"http://www.lua.org/manual/5.1/") }
-      li {
-        a("Lapis", :href=>"http://leafo.net/lapis/")
-        span %^.^
-        br
-        span %^
-          Be sure to click on the Lua version of the code.
-          Scroll down a little and a header appears with MoonScript/Lua options.
-        ^
-      }
-      li { span "I'm avoiding MoonScript for now. I'm having enough trouble Lua and limited time." }
-    }
-  }
+[Here is an example](http://stackoverflow.com/a/11280629/841803).
 
-  div.learn {
-    ul {
-      li {
-       a("OOP-ish Lua", :href=>"http://phrogz.net/Lua/")
-      }
-      li {
-        a("PostgresSQL Basics by Example", :href=>"http://darthdeus.github.io/blog/2013/08/19/postgresql-basics-by-example/")
-      }
-      li {
-        a("Lua: Good, bad, and ugly parts", :href=>"http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts")
-      }
-      li {
-        a("Zerobrane Studio: IDE w/live coding", :href=>"http://studio.zerobrane.com/")
-      }
-      li {
-        a("NGINX Tutorials by Openresty co-creator", :href=>"http://openresty.org/download/agentzh-nginx-tutorials-en.html")
-      }
-    }
-  }
+You will have to rely on blogs, Google, and
+[stackoverflow](http://stackoverflow.com/questions/tagged/lua).
 
-```
+I won't blame you if you run screaming back to easy-to-use Rack and Sinatra.
+
+
+
+h3 "Lua the easy way."
+=======
+I'm sticking with the LuaJIT 2.0 for now.
+It is compatible with 5.1 and just as easy to install.
+It is easy to compile. I uninstalled the Lua5.1 Ubuntu package,
+wrote a [simple shell script](https://github.com/da99/boot_ups/blob/master/bin/install/luajit)
+to compile/install [LuaJIT 2.0](http://luajit.org/install.html),
+and put the LuaJIT bin dir in my $PATH.
+
+Things are still being debated about Lua 5.2 and the future. Just look at this page:
+[Sand Boxes](http://lua-users.org/wiki/SandBoxes).
+
+It's full of warnings, complaints, and debates. My needs are simple (but with limited RAM/CPU).
+Therefore, I will:
+stick with LuaJIT, use it as 5.1, and use openresty. If you want to learn more
+about it: use google.
+
+Learning Lua
+====
+* "Programming in Lua, 5.2 (not online for free yet)" }
+* [Lua 5.1 Manual](http://www.lua.org/manual/5.1/)
+* [Lapis](http://leafo.net/lapis/).
+
+Lua Commentary
+===============
+* [OOP-ish Lua](http://phrogz.net/Lua/)
+* [PostgresSQL Basics by Example](http://darthdeus.github.io/blog/2013/08/19/postgresql-basics-by-example/)
+* [Lua: Good, bad, and ugly parts](http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts)
+* [Zerobrane Studio: IDE w/live coding](http://studio.zerobrane.com/)
+* [NGINX Tutorials by Openresty co-creator](http://openresty.org/download/agentzh-nginx-tutorials-en.html)
 
 More to come:
 =================

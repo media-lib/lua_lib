@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# -*- bash -*-
+#
+#!/usr/bin/env node
+# -*- js   -*-
+#
+#!/usr/bin/env lua
+#
+#
+set -u -e -o pipefail
+
+for file in $(find templates/ -iregex '.*\(.rb\)' -printf '%f\n')
+do
+  orig=templates/$file
+  html=${file/.rb/.html}
+  if [[ -f $orig ]]
+  then
+    bundle exec dot_why ./lib/layout ./lib/Sin_Moon.dot_why $orig > $html
+    echo "generated: $html"
+  fi
+done
+
+
+

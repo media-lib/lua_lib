@@ -10,8 +10,9 @@ https://github.com/da99/lua\_lib/tree/master/bin
 
 OpenResty
 ============
-The best intro to OpenResty I could find:
-[Scripting Nginx w/Lua"](http://www.londonlua.org/scripting_nginx_with_lua/slides.html).
+The best intros to OpenResty I could find:
+* [Scripting Nginx w/Lua"](http://www.londonlua.org/scripting_nginx_with_lua/slides.html).
+* [Definitely an OpenResty Guide](http://www.staticshin.com/programming/definitely-an-open-resty-guide/).
 
 To install OpenResty:
 [http://openresty.org/#Installation](http://openresty.org/#Installation)

@@ -11,7 +11,7 @@ https://github.com/da99/lua\_lib/tree/master/bin
 OpenResty
 ============
 The best intro to OpenResty I could find:
-    [Scripting Nginx w/Lua"](http://www.londonlua.org/scripting_nginx_with_lua/slides.html).
+[Scripting Nginx w/Lua"](http://www.londonlua.org/scripting_nginx_with_lua/slides.html).
 
 To install OpenResty:
 [http://openresty.org/#Installation](http://openresty.org/#Installation)
@@ -56,8 +56,8 @@ I won't blame you if you run screaming back to easy-to-use Rack and Sinatra.
 
 
 
-h3 "Lua the easy way."
-=======
+Lua the easy way.
+================
 I'm sticking with the LuaJIT 2.0 for now.
 It is compatible with 5.1 and just as easy to install.
 It is easy to compile. I uninstalled the Lua5.1 Ubuntu package,
@@ -74,8 +74,8 @@ stick with LuaJIT, use it as 5.1, and use openresty. If you want to learn more
 about it: use google.
 
 Learning Lua
-====
-* "Programming in Lua, 5.2 (not online for free yet)" }
+============
+* "Programming in Lua, 5.2" (not online for free yet)
 * [Lua 5.1 Manual](http://www.lua.org/manual/5.1/)
 * [Lapis](http://leafo.net/lapis/).
 

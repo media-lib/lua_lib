@@ -20,6 +20,7 @@ Lua
 ==============
 
 
+```ruby
   h1 'Ghetto.lua'
   h2 'My way of running a simple Lua-backed website for fun.'
 
@@ -154,7 +155,7 @@ Lua
     }
   }
 
-  div.learn {
+```
 
 More to come:
 =================
